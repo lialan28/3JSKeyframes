@@ -1,0 +1,58 @@
+html, body {
+	overflow: hidden;
+	user-select: none;
+  padding: 0;
+  margin: 0;
+
+  background-color: #D2B4DE;
+  color: #6C3483;
+}
+
+.typewriter{
+  padding: 0.5em;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4ECF7;
+  color: #6C3483;
+  font-family: 'Bellota';
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.pau {
+  font-family: 'Yellowtail', cursive;
+  font-size: 26px;
+}
+
+.typewriter p {
+  display: block;
+  line-height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spotify {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 9px 16px -8px rgba(0,0,0,0.75);
+} 
